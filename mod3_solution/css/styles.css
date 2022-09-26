@@ -1,0 +1,109 @@
+body section {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+  margin: 0px 0px 0px 15px;
+  width: 100%;
+}
+
+h2 {
+  margin: auto;
+  text-align: center;
+  color: black;
+  font-size: 1.75em;
+  font-weight: bold;
+  padding-bottom: 25px;
+
+}
+
+div.container {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+
+ul#nav-list {
+  border-top: 2px solid black;
+  margin: 0px;
+}
+
+div#collapsable-nav.navbar-collapse.collapse.in {
+  padding: 0px;
+}
+
+
+section#title {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: grey;
+  border: 0px;
+  border-radius: 0px;
+  width: fit-content;
+}
+
+p {
+  font-size: 16px;
+  text-transform: lowercase;
+  height: auto;
+  text-align: left;
+  padding: 10px;
+}
+
+div.col-xs-12 {
+  width: 100%;
+  padding-right: 0px;
+}
+
+.row {
+  width: 100%;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  font-size: 1.5em;
+  color: black;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list a {
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle  {
+  clear: both;
+  margin-top: -40px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none;
+}
+
+/* END HEADER */
+
